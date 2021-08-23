@@ -490,3 +490,8 @@ img {
       flex-direction: column-reverse;
       padding: 1rem;
       height: 5rem; } }
+
+@media (min-width: 768px) {
+  .bio p {
+    padding: 0.1rem 0.6rem;
+    text-align: justify; } }

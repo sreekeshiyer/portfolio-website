@@ -159,3 +159,10 @@
         }
     }
 }
+
+@media (min-width: 768px) {
+    .bio p {
+        padding: 0.1rem 0.6rem;
+        text-align: justify;
+    }
+}
