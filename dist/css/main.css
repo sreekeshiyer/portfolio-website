@@ -250,9 +250,9 @@ img {
   #home-b .stats li {
     line-height: 2; }
     #home-b .stats li.stats-title {
-      font-size: 1.5rem; }
+      font-size: 1.3rem; }
     #home-b .stats li.stats-number {
-      font-size: 2rem;
+      font-size: 1.8rem;
       font-weight: bold; }
   #home-b .stats div {
     padding: 3rem 0; }
@@ -266,11 +266,15 @@ img {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1.5rem;
   text-align: center; }
+  #home-c .process h1 {
+    font-size: 1.5rem; }
+  #home-c .process p {
+    font-size: 0.9rem; }
   #home-c .process-step {
     position: absolute;
     top: 0;
     right: 0;
-    font-size: 28px;
+    font-size: 23px;
     background: #0084ff;
     color: #fff;
     border-radius: 50%;
@@ -300,7 +304,7 @@ img {
 
 #about-a .about-info {
   display: grid;
-  grid-template-areas: "bioimage bioimage bio bio bio bio" "aw1 aw1 aw1 aw2 aw2 aw2";
+  grid-template-areas: "bioimage bioimage bio bio bio bio" "aw1 aw1 aw1 aw2 aw2 aw2";
   grid-gap: 1.2rem; }
 
 #about-a .bio-image {
@@ -365,7 +369,7 @@ img {
 
 #contact-a .text-fields {
   display: grid;
-  grid-template-areas: "name email" "subject phone" "message message";
+  grid-template-areas: "name email" "subject phone" "message message";
   grid-gap: 1.2rem;
   margin-bottom: 1.2rem; }
   #contact-a .text-fields .name-input {
@@ -391,8 +395,10 @@ img {
   text-align: center; }
 
 #contact-c h1 {
+  font-family: "Kanit", sans-serif;
+  letter-spacing: 0.7px;
   text-align: center;
-  font-size: 4rem; }
+  font-size: 3.8rem; }
 
 #main-footer {
   background: #333;
@@ -423,9 +429,15 @@ img {
   #header-home {
     height: 30rem; }
     #header-home .header-content {
-      padding-top: 5rem; } }
+      padding-top: 1rem; }
+      #header-home .header-content h1 {
+        font-size: 2.8rem;
+        line-height: 1; }
+      #header-home .header-content p {
+        padding-top: 2rem;
+        font-size: 1.2rem; } }
 
-@media (max-width: 500px) {
+@media (max-width: 720px) {
   #main-nav {
     flex-direction: column;
     align-items: center; }
@@ -455,11 +467,11 @@ img {
   #home-b .stats div {
     padding: 2rem 0 1rem 0; }
   #about-a .about-info {
-    grid-template-areas: "bioimage" "bio" "aw1" "aw2"; }
+    grid-template-areas: "bioimage" "bio" "aw1" "aw2"; }
   #about-d .testimonials ul {
     justify-content: center; }
   #contact-a .text-fields {
-    grid-template-areas: "name" "subject" "email" "phone" "message"; }
+    grid-template-areas: "name" "subject" "email" "phone" "message"; }
   #contact-b div {
     margin-bottom: 1rem;
     padding-bottom: 1rem;
@@ -483,7 +495,7 @@ img {
   #header-home .header-content h1 {
     font-size: 2rem; } }
 
-@media (max-width: 560px) {
+@media (max-width: 610px) {
   #main-footer {
     height: 7rem; }
     #main-footer .footer-content {
