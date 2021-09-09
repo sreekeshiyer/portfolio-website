@@ -3,12 +3,6 @@ My Portfolio Website
 
 ## How to Run
 
-Clone the project
-
-```
-git clone <link>
-```
----
 Install all dependencies
 ```
 npm install
