@@ -52,6 +52,8 @@
     #contact-b .contact-info,
     .items {
         grid-template-columns: 1fr;
+        grid-gap: 0.5rem;
+        box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
     }
 
     #home {
@@ -81,7 +83,16 @@
                     "bioimage"
                     "bio"
                     "aw1"
-                    "aw2";
+                    "aw2"
+                    "aw3";
+            }
+        }
+        &-c {
+            .about-logos {
+                margin: 0;
+                img {
+                    width: 45px;
+                }
             }
         }
         &-d {
@@ -171,5 +182,18 @@
     .bio p {
         padding: 0.1rem 0.6rem;
         text-align: justify;
+    }
+}
+
+@media (min-width: 721px) and (max-width: 925px) {
+    #about {
+        &-a {
+            .about-info {
+                grid-template-areas:
+                    "bioimage"
+                    "bio"
+                    "aw1 aw2";
+            }
+        }
     }
 }
