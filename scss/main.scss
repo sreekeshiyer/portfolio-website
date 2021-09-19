@@ -323,16 +323,26 @@ img {
 
 #contact {
     &-a {
+        form button {
+            font-family: "Montserrat", sans-serif;
+        }
+
         .text-fields {
             display: grid;
+
             grid-template-areas:
                 "name email"
                 "subject phone"
                 "message message";
             grid-gap: 1.2rem;
-            margin-bottom: 1.2rem;
+            // margin-bottom: 0.8rem;
 
             // Grid Areas
+
+            input,
+            textarea {
+                font-family: "Montserrat", sans-serif;
+            }
 
             .name-input {
                 grid-area: name;
