@@ -464,15 +464,16 @@ img {
   #header-inner {
     height: 10rem; }
   #home-a .specials,
+  #home-b .process {
+    padding: 0.8rem 0.3rem;
+    margin-bottom: 0.3rem; }
+  #home-a .specials,
   #home-b .stats,
   #home-c .process,
   #about-d .testimonials,
   #contact-b .contact-info,
   .items {
-    padding: 0.8rem 0.3rem;
-    margin-bottom: 0.3rem;
     grid-template-columns: 1fr;
-    grid-gap: 0.5rem;
     box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1); }
   #home-a .specials div {
     border-bottom: 1px #f4f4f4 solid;
