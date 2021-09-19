@@ -53,7 +53,11 @@
 
                 <p class="lead">Here is how you can connect with me</p>
 
-                <form method="POST" data-netlify="true">
+                <form
+                    method="POST"
+                    data-netlify="true"
+                    data-netlify-recapcha="true"
+                >
                     <div class="text-fields">
                         <input
                             required
@@ -89,7 +93,9 @@
                             class="text-input message-input"
                             placeholder="Enter your message"
                         ></textarea>
-                        <div data-netlify-recapcha="true" class="my-2"></div>
+                        <div class="my-2">
+                            <div data-netlify-recapcha="true"></div>
+                        </div>
                     </div>
                     <button type="submit" class="btn-dark">Submit</button>
                 </form>
